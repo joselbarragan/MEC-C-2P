@@ -1,5 +1,6 @@
 package animation;
 
+import java.util.Calendar;
 import java.awt.Dimension;
 import java.util.Timer;
 import javax.swing.*;
@@ -20,11 +21,15 @@ public class animationclass  extends javax.swing.JLabel {
     }  
     //coloca una imagen en el objeto jlabel
     public void setimage(int n){        
-        this.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/personaje_" + n + ".jpg"))); 
+        
     }
     //coloca la velocidad en la variable 
     public void setvelocidad(int v){
         this.speed= v;        
+    }
+    
+    public void hora() {
+        
     }
   //para la animacion  
   public void startAnimation() {    
